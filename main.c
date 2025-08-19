@@ -1,3 +1,4 @@
+// Previous program for 3 simultaneous counters
 // #include "c_atomic_rwlock.h"
 // #include <stdio.h>
 // #include <stdlib.h>
