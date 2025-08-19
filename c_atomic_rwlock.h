@@ -6,10 +6,10 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-#define MAX_REF_COUNT (1ULL << 62) -1;
-#define READ_FLAG     1ULL << 62;
-#define WRITE_FLAG    1ULL << 63;
-#define COUNTER_MASK  (UINT_FAST64_MAX << 2) >> 2;
+#define MAX_REF_COUNT (1ULL << 62) -1
+#define READ_FLAG     1ULL << 62
+#define WRITE_FLAG    1ULL << 63
+#define COUNTER_MASK  (UINT_FAST64_MAX << 2) >> 2
 
 typedef struct {
   atomic_uint_fast64_t flags;
